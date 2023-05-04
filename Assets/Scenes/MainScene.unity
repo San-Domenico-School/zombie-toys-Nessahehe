@@ -208,7 +208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &105293051
 Transform:
   m_ObjectHideFlags: 0
@@ -580,7 +580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &355145575
 Transform:
   m_ObjectHideFlags: 0
@@ -915,6 +915,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 175144226}
+  - {fileID: 1674841133}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1151,7 +1152,7 @@ MonoBehaviour:
     type: 3}
   allySpawnPoint: {fileID: 1375105925}
   allyImage: {fileID: 1814419502}
-  testAlly: 1
+  testAlly: 0
 --- !u!4 &662183467 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6015851571690522281, guid: 55b356ec718744a66858470e3640d069,
@@ -1855,7 +1856,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1238387890 stripped
 Transform:
@@ -2508,8 +2509,8 @@ Transform:
   - {fileID: 149803670}
   - {fileID: 1877413911}
   - {fileID: 355145575}
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_Father: {fileID: 557569797}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1679933120 stripped
 Transform:
@@ -2977,7 +2978,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1877413911
 Transform:
   m_ObjectHideFlags: 0
@@ -3458,7 +3459,7 @@ PrefabInstance:
     - target: {fileID: 2373626371275420808, guid: eb1a9fe817b2d48f9bdbe1106715b4ee,
         type: 3}
       propertyPath: isInvulnerable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2373626371275420809, guid: eb1a9fe817b2d48f9bdbe1106715b4ee,
         type: 3}
