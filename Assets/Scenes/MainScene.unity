@@ -1395,7 +1395,7 @@ MonoBehaviour:
     type: 3}
   allySpawnPoint: {fileID: 1375105925}
   allyImage: {fileID: 1814419502}
-  testAlly: 0
+  testAlly: 1
 --- !u!82 &643251472
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2769,7 +2769,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1375105924}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.37, y: 1.1, z: -35.31}
+  m_LocalPosition: {x: 0.14, y: 1.1, z: -33.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
